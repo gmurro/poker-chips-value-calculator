@@ -1,0 +1,26 @@
+% Number of players playing poker
+n_players = 6; 
+
+% Colors of the poker chips 
+n_color_chips = 5; 
+
+% Number of poker chips for each color from the lower value to the higher
+% (e.g. white, blue, red, black, green)
+n_chips = [50, 50, 50, 100, 50]; 
+
+% Initial budget for each player to start the poker (euro)
+budget = 5;
+
+% Decimal unit according to compute the division
+unit = 100;
+
+% Minimum number of total poker chips that each player should have
+min_tot_chips = 32;
+
+% Minimum number of poker chips for each color that each player should have
+% from the lower value to the higher (e.g. white, blue, red, black, green)
+min_n_chips = [5, 5, 3, 3, 3];
+
+% Maximum number of poker chips for each color that each player should have
+% from the lower value to the higher (e.g. white, blue, red, black, green)
+max_n_chips = [12, 10, 10, 10, 6]

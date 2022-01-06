@@ -1,0 +1,14 @@
+{
+    "openFiles": [
+        "data.dzn",
+        "poker_chips_value.mzn"
+    ],
+    "openTab": 1,
+    "projectFiles": [
+        "data.dzn",
+        "poker_chips_value.mzn"
+    ],
+    "selectedBuiltinConfigId": "org.gecode.gecode",
+    "selectedBuiltinConfigVersion": "6.3.0",
+    "version": 106
+}
