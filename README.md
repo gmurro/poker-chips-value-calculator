@@ -2,7 +2,7 @@
 
 If during the current Christmas holidays or during your quarantine (given the bad situation caused by Covid-19 that we are going through) you are spending your nights playing poker with your family/flatmates like me, this repository is what you are looking for.
 
-***Poker chips value calculator*** is a script that using the CP paradigm, solve a *Constraint Satisfaction Problem* where the objective is define:
+***Poker chips value calculator*** is a script that using the CP paradigm, solve a *Constraint Satisfaction Problem* where the objective is to compute:
 
 - the **number of chips** to give to each player on the table, taking in consideration the total number of chips that you have
 - the **real value** in euro to assign to **each color of chip** taking in consideration the initial budget that each player use to sit on the table
