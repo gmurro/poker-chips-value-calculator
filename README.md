@@ -22,9 +22,19 @@ cd pokerChipsValueCalculator
 
 ## **1. Prerequisites**
 
-MiniZinc Python provides a native python interface for the MiniZinc toolchain and it is the only thing that you need. If you have the `pip` package manager installed, then the simplest way of installing MiniZinc Python is using the following command: 
+_MiniZinc Python_ provides a native python interface for the MiniZinc toolchain. It
+requires [MiniZinc](https://www.minizinc.org/) 2.5.0+ and
+[Python](https://www.python.org/) 3.6.0+ to be installed on the system. MiniZinc
+python expects the `minizinc` executable to be available on the executable path,
+the `$PATH` environmental variable, or in a default installation location.
+
+_For more information, please refer to the
+[Documentation](https://minizinc-python.readthedocs.io/en/latest/)_
+
+After getting MiniZinc bundle, if you have the `pip` package manager installed, then the simplest way of installing MiniZinc Python is using the following command: 
 
     $ pip install minizinc
+    
 
 ## **2. Customization**
 The file `data.dzn` contains all the parameters used by the script that you can customize. In particular:
